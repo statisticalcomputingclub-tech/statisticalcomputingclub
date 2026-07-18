@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About — Statistical Computing Club</title>
+<meta name="description" content="History, leadership, and membership tiers of the Statistical Computing Club at Makerere University." />
+<meta property="og:title" content="About — Statistical Computing Club" />
+<meta property="og:description" content="History, leadership, and how to join the Statistical Computing Club at Makerere University." />
+<meta property="og:type" content="website" />
+<link rel="icon" type="image/png" href="assets/favicon-32.png" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="about" data-page-file="about.html">
+
+<header class="site-header" id="site-header"></header>
+
+<section style="padding-top:56px;padding-bottom:56px;">
+  <div class="wrap">
+    <span class="label">About</span>
+    <h1 style="margin-top:14px;">Built by students, for students who like their data reproducible.</h1>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">§01 — History</span>
+      <h2>Club history</h2>
+    </div>
+    <p id="clubHistoryText" style="max-width:68ch;font-size:1.05rem;"></p>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">§02 — Leadership</span>
+      <h2>The Executive</h2>
+      <p>Roles as defined in the SCC Constitution, Part III.</p>
+    </div>
+    <div class="grid-3" id="teamGrid"></div>
+  </div>
+</section>
+
+<section id="join">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">§03 — How to join</span>
+      <h2>Getting involved</h2>
+    </div>
+    <ol class="steps" id="joinSteps" style="max-width:68ch;"></ol>
+  </div>
+</section>
+
+<section id="membership">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">§04 — Membership</span>
+      <h2>Membership tiers</h2>
+    </div>
+    <div style="overflow-x:auto;">
+      <table class="membership">
+        <thead>
+          <tr>
+            <th>Tier</th>
+            <th>Eligibility</th>
+            <th>Can vote</th>
+            <th>Can stand for office</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="membershipTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
