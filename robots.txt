@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://REPLACE_WITH_YOUR_USERNAME.github.io/REPLACE_WITH_REPO_NAME/sitemap.xml
+Sitemap: https://statisticalcomputingclub-tech.github.io/statisticalcomputingclub/sitemap.xml
