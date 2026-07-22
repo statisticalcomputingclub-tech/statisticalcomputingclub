@@ -27,11 +27,11 @@ const SCC_CONTENT = {
       "A Class A academic association for students building real skill in statistics, R, Python, SQL, and reproducible research — through workshops, hackathons, and projects that matter.",
     backstory:
       "SCC was founded by students in the School of Statistics and Planning who wanted more hands-on computing than the standard coursework offered. What started as informal study sessions grew into a registered Guild association: a place to learn tools like R, Python, and SQL properly, work on real datasets, and mentor the next cohort coming up behind us.",
-    email: "sccmakerere@gmail.com", // TODO: replace with the club's real email
+    email: "statisticalcomputingclub@gmail.com", // TODO: replace with the club's real email
     whatsappNumber: "256700000000", // TODO: replace with real WhatsApp number, format: countrycode+number, no + or spaces
     socials: {
-      linkedin: "https://www.linkedin.com/company/statistical-computing-club-makerere", // TODO: replace with real URL
-      x: "https://x.com/scc_makerere", // TODO: replace with real URL
+      linkedin: "https://www.linkedin.com/in/statistical-computing-club-34a49b370", // URL 
+      x: "https://x.com/Statistica64233", // URL
     },
     // Set this to a real, verifiable number when you have one — used in the
     // "impact" stat callout on the home page. Leave the note as-is until then.
@@ -49,7 +49,7 @@ const SCC_CONTENT = {
      and adding a comma after the closing }.
      --------------------------------------------------------- */
   events: [
-    {
+     {
       id: "evt-2026-08",
       title: "SCC Semester Kickoff & R Bootcamp",
       date: "2026-08-14",
@@ -59,8 +59,22 @@ const SCC_CONTENT = {
       description:
         "First meeting of the semester: club overview for new members, then a hands-on introduction to R and RStudio for anyone starting from zero.",
       meetingUrl: "", // TODO: paste a Zoom/Google Meet link here if the session is hybrid/online
-      posterImage: "", // TODO: path to a poster image, e.g. "assets/events/kickoff.jpg"
+      posterImage: "assets/events/27-2-2026.png", // TODO: path to a poster image, e.g. "assets/events/kickoff.jpg"
     },
+    //2
+    {
+      id: "evt-2026-03",
+      title: "Time series in R",
+      date: "2026-03-13",
+      time: "17:00",
+      endTime: "18:00",
+      location: "SSP Room A-13",
+      description:
+        "Time series and forecasting methods. The language behind sales forecasting, weather forecasting and more",
+      meetingUrl: "", // TODO: paste a Zoom/Google Meet link here if the session is hybrid/online
+      posterImage: "assets/events/13-3-2026.jpg", // TODO: path to a poster image, e.g. "assets/events/kickoff.jpg"
+    }
+   
     // Add future events above this line, following the same pattern.
   ],
 
@@ -99,10 +113,10 @@ const SCC_CONTENT = {
      (with permission) when you have them.
      --------------------------------------------------------- */
   testimonials: [
-    {
-      quote: "[Placeholder] SCC is where I actually learned to use R for something real, not just for a lab report.",
-      name: "Add member name",
-      cohort: "e.g. Year 2, BSTAT",
+     {
+      quote: "I had the most of the libraries and R was familiar to me. I also knew how to download necessary libraries, generally, I felt like I was moving faster than some of my classmates that were finding certain terms confusing",
+      name: "Watela Gift Grace",
+      cohort: "Year 2, BSAS",
     },
     {
       quote: "[Placeholder] The hackathons pushed me to build things I didn't think I could build in a weekend.",
@@ -125,14 +139,15 @@ const SCC_CONTENT = {
   // with `story` — a few sentences on who they are and what motivates them.
   // TODO: replace every "Add name" and story placeholder with the real thing.
   team: [
-    { name: "Add name", role: "President", bio: "Chief executive of SCC; presides over meetings and represents the club officially.", photo: "", story: "[Placeholder] Add a short personal story here — how they got into statistics/computing, what drew them to SCC, and what they're hoping to build during their term." },
-    { name: "Add name", role: "Vice Chairperson", bio: "Supports the President and steps in on their behalf when needed.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "Speaker", bio: "Presides over club events and chairs the Electoral Committee.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "General Secretary", bio: "Keeps minutes, correspondence, and the membership register.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "Minister of Finance", bio: "Safeguards funds and presents audited accounts at the AGM.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "Projects Manager", bio: "Leads planning and execution of SCC projects and collaborations.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "Public Relations & Social Media Officer", bio: "Publicises events and manages SCC's digital presence.", photo: "", story: "[Placeholder] Add a short personal story here." },
-    { name: "Add name", role: "Legal Advisor", bio: "Chairs the Legal Advisory Committee and ensures constitutional compliance.", photo: "", story: "[Placeholder] Add a short personal story here." },
+     { name: "Mr. Serunjogi Ambrose", role: "Patron", bio: "Patron of SCC. Guides the club as a professional and bridges the club with opportunity", photo: "assets/profiles/mr.ambrose.jpeg", story: "[Placeholder] Add a short personal story here — how they got into statistics/computing, what drew them to SCC, and what they're hoping to build during their term." },
+    { name: "Agaba Ernest", role: "Chairperson", bio: "Chief executive of SCC. Presides over executive meetings and represents the club officially.", photo: "assets/profiles/agaba.jpeg", story: "This club is so dear to my heart. I had the idea to have a club to meet the increasing computing demands of students in SSP. We founded the club with a vision to inspire innovation and build capacity. Over the past year, we have held over 12 session, covered R programming, started and fully registered the club and now launched a website. My hope is that every student in Makerere gets to be part of this vision and that we bridge the gap between theoretical knowledge and practice." },
+    { name: "Womala Dalton", role: "Vice Chairperson", bio: "Supports the President and steps in on their behalf when needed.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Kyakwise John Precious", role: "Speaker", bio: "Presides over club events and chairs the Electoral Committee.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Ian Francis Luwalira", role: "General Secretary", bio: "Keeps minutes, correspondence, and the membership register.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Ntezirizaza David", role: "Minister of Finance", bio: "Safeguards funds and presents audited accounts at the AGM.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Odongo John Moses", role: "Projects Manager", bio: "Leads planning and execution of SCC projects and collaborations.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Katushabe Olivia", role: "Public Relations & Social Media Officer", bio: "Publicises events and manages SCC's digital presence.", photo: "", story: "[Placeholder] Add a short personal story here." },
+    { name: "Okello Aron", role: "Legal Advisor", bio: "Chairs the Legal Advisory Committee and ensures constitutional compliance.", photo: "", story: "[Placeholder] Add a short personal story here." },
   ],
 
   /* ---------------------------------------------------------
