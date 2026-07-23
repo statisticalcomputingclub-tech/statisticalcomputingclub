@@ -10,17 +10,17 @@
 
 :root {
   /* ---- palette ---- */
-  --bg:        #0A0C11;
-  --bg-raised: #12151D;
-  --bg-card:   #151923;
-  --line:      rgba(243, 241, 234, 0.10);
+  --bg: #ffffff;
+  --bg-raised: #dce5e6;
+  --bg-card: #dce5e6;
+  --line: #f3f1ea1a;
   --line-strong: rgba(243, 241, 234, 0.22);
-  --ink:       #F1F0EA;
-  --ink-dim:   #9BA1B0;
+  --ink: #000000;
+  --ink-dim: #393939;
   --ink-faint: #5C6373;
-  --gold:      #D9A43D;
-  --gold-dim:  #8A712B;
-  --navy:      #3A6EA8;
+  --gold: #D9A43D;
+  --gold-dim: #8A712B;
+  --navy: #3A6EA8;
   --navy-deep: #0B2545;
 
   /* ---- type ---- */
@@ -121,7 +121,7 @@ section:last-of-type { border-bottom: none; }
 
 .btn-primary {
   background: var(--gold);
-  color: #14110A;
+  color: #ffffff;
   border-color: var(--gold);
   font-weight: 500;
 }
@@ -140,7 +140,7 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(10, 12, 17, 0.86);
+  background: #d3d3d3db;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
