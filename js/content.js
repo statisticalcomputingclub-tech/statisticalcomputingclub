@@ -22,11 +22,11 @@ const SCC_CONTENT = {
     name: "Statistical Computing Club",
     shortName: "SCC",
     institution: "Makerere University",
-    tagline: "Where data meets decision.",
+    tagline: "Inspiring Innovation, Building Capacity",
     heroSubtitle:
-      "A Class A academic association for students building real skill in statistics, R, Python, SQL, and reproducible research — through workshops, hackathons, and projects that matter.",
+      "Your campus fam. A family of people interested in applications of statistics, mathematics and economics with computing. We are a student and project led club. Our members span from inspired beginners in the different tools, to masters students. THIS IS IT! The go to place for skilling, networking, leadership and practical exposure.",
     backstory:
-      "SCC was founded by students in the School of Statistics and Planning who wanted more hands-on computing than the standard coursework offered. What started as informal study sessions grew into a registered Guild association: a place to learn tools like R, Python, and SQL properly, work on real datasets, and mentor the next cohort coming up behind us.",
+      "Having stood for Deputy Speaker MUSSA(Makerere University School of Statistics Association) in 2025, Agaba Ernest was pursuaded by the fact that the courses at the School of Statistics and Planning(SSP) had alot to do with programming using R, STATA, C, Python and SQL. Although this was true, there was no student leader that  SCC was founded by students in the School of Statistics and Planning who wanted more hands-on computing than the standard coursework offered. What started as informal study sessions grew into a registered Guild association: a place to learn tools like R, Python, and SQL properly, work on real datasets, and mentor the next cohort coming up behind us.",
     email: "statisticalcomputingclub@gmail.com", // TODO: replace with the club's real email
     whatsappNumber: "256700000000", // TODO: replace with real WhatsApp number, format: countrycode+number, no + or spaces
     socials: {
